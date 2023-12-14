@@ -15,7 +15,7 @@
 void err(int error_code, ...)
 {
 	va_list ag;
-	char *opp; 
+	char *opp;
 	int l_num;
 
 	va_start(ag, error_code);
